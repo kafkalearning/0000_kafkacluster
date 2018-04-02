@@ -105,3 +105,5 @@ public Map<String, Object> producerConfigs() {
 public KafkaTemplate<Integer, String> kafkaTemplate() {
     return new KafkaTemplate<Integer, String>(producerFactory());
 }
+
+https://docs.spring.io/spring-kafka/docs/2.1.4.RELEASE/reference/htmlsingle/
